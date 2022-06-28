@@ -14,6 +14,7 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="zh-TW">
+        <Head />
         <body>
           <Main />
           <NextScript />
