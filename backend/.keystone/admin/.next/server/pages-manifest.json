@@ -3,6 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/products": "pages/products.js",
-  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
-  "/products/[id]": "pages/products/[id].js"
+  "/product-images": "pages/product-images.js",
+  "/products/[id]": "pages/products/[id].js",
+  "/product-images/[id]": "pages/product-images/[id].js"
 }
