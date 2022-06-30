@@ -4,9 +4,13 @@ import { KeystoneProvider } from '@keystone-next/admin-ui/context';
 import { ErrorBoundary } from '@keystone-next/admin-ui/components';
 import { Core } from '@keystone-ui/core';
 
+import * as view2ecc5dfe from '../../../node_modules/@keystone-next/fields/types/mongoId/views';
+import * as viewedc01b02 from '../../../node_modules/@keystone-next/fields/types/text/views';
+import * as viewb79f937e from '../../../node_modules/@keystone-next/fields/types/password/views';
+
 const adminConfig = {};
 
-const fieldViews = {};
+const fieldViews = { view2ecc5dfe, viewedc01b02, viewb79f937e };
 
 const lazyMetadataQuery = {
   kind: 'Document',
@@ -157,7 +161,7 @@ export default function App({ Component, pageProps }) {
     <Core>
       <KeystoneProvider
         adminConfig={adminConfig}
-        adminMetaHash="cgdttq"
+        adminMetaHash="1j6sv24"
         fieldViews={fieldViews}
         lazyMetadataQuery={lazyMetadataQuery}
       >

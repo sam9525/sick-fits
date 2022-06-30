@@ -1,5 +1,6 @@
 import 'dotenv/config';
 import { config, createSchema } from '@keystone-next/keystone/schema';
+import { User } from './schemas/User';
 
 const databaseURL =
   process.env.DATABASE_URL || 'mongodb://localhost/keystone-sick-fits';
@@ -21,7 +22,7 @@ export default config({
     url: databaseURL,
   },
   lists: createSchema({
-    // Schema items go in here
+    User,
   }),
   ui: {
     isAccessAllowed: () => true,
