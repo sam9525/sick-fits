@@ -38,5 +38,6 @@ export default function useForm(initial = {}) {
     inputs,
     handleChange,
     clearForm,
+    resetForm,
   };
 }
