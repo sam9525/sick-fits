@@ -24,15 +24,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/reset": [
+    "/next/dist/pages/_error": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/reset.js"
+      "static/chunks/pages/next/dist/pages/_error.js"
     ],
-    "/signin": [
+    "/products": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/signin.js"
+      "static/chunks/pages/products.js"
+    ],
+    "/products/[page]": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/products/[page].js"
     ]
   },
   "ampFirstPages": []
