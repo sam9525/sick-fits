@@ -2,5 +2,17 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/signin": "pages/signin.js"
+  "/roles/[id]": "pages/roles/[id].js",
+  "/roles": "pages/roles.js",
+  "/signin": "pages/signin.js",
+  "/": "pages/index.js",
+  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
+  "/products": "pages/products.js",
+  "/users": "pages/users.js",
+  "/products/[id]": "pages/products/[id].js",
+  "/users/[id]": "pages/users/[id].js",
+  "/cart-items": "pages/cart-items.js",
+  "/orders": "pages/orders.js",
+  "/order-items": "pages/order-items.js",
+  "/order-items/[id]": "pages/order-items/[id].js"
 }
