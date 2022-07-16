@@ -4,7 +4,7 @@ I made Advanced React and GraphQL course by Wes Bos
 
 You can see the course in [here](https://advancedreact.com/)
 
-#Frontend
+# Frontend
 
 Next.js for server side rendering, routing and tooling
 
@@ -24,7 +24,7 @@ Caching GraphQL Data
 
 Error and Loading UI States
 
-#Backend
+# Backend
 
 Admin Interface to manage data
 
